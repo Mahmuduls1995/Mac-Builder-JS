@@ -1,0 +1,1 @@
+document.getElementById("sixteenGB").addEventListener("click", 
