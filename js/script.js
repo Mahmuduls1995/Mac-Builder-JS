@@ -76,6 +76,12 @@ document.getElementById("apply-btn").addEventListener("click", function () {
         document.getElementById("promo-input").value = ' ';
     }
 
-    
+    else {
+        //console.log("sorry");
+        //return;
+        alert('Please enter valid promo Code')
+        document.getElementById("promo-input").value = ' ';
+        //code.innerText = ' ';
+    }
 })
 
